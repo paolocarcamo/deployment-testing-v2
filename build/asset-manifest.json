@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6abfe873.chunk.css",
+    "main.js": "/static/js/main.b7db3023.chunk.js",
+    "main.js.map": "/static/js/main.b7db3023.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.95a64877.js",
+    "runtime-main.js.map": "/static/js/runtime-main.95a64877.js.map",
+    "static/js/2.cf78c6fe.chunk.js": "/static/js/2.cf78c6fe.chunk.js",
+    "static/js/2.cf78c6fe.chunk.js.map": "/static/js/2.cf78c6fe.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6abfe873.chunk.css.map": "/static/css/main.6abfe873.chunk.css.map",
+    "static/js/2.cf78c6fe.chunk.js.LICENSE.txt": "/static/js/2.cf78c6fe.chunk.js.LICENSE.txt",
+    "static/media/A24.36fdb6ed.jpeg": "/static/media/A24.36fdb6ed.jpeg",
+    "static/media/Hillary.2c2e12c1.jpg": "/static/media/Hillary.2c2e12c1.jpg",
+    "static/media/Mariah.e16b690e.jpg": "/static/media/Mariah.e16b690e.jpg",
+    "static/media/Netflix.b8e55455.png": "/static/media/Netflix.b8e55455.png",
+    "static/media/Obama.77b77ceb.jpg": "/static/media/Obama.77b77ceb.jpg",
+    "static/media/advisorimage.4653355a.png": "/static/media/advisorimage.4653355a.png",
+    "static/media/getintouch.124f85ea.png": "/static/media/getintouch.124f85ea.png",
+    "static/media/hovergetintouch.9999c4de.png": "/static/media/hovergetintouch.9999c4de.png",
+    "static/media/hovergetintouchimage.53b45219.png": "/static/media/hovergetintouchimage.53b45219.png",
+    "static/media/hoverlandingimage.53b45219.png": "/static/media/hoverlandingimage.53b45219.png",
+    "static/media/landingimage.ae177008.png": "/static/media/landingimage.ae177008.png",
+    "static/media/navbarlogo.c93abcf1.png": "/static/media/navbarlogo.c93abcf1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95a64877.js",
+    "static/js/2.cf78c6fe.chunk.js",
+    "static/css/main.6abfe873.chunk.css",
+    "static/js/main.b7db3023.chunk.js"
+  ]
+}
