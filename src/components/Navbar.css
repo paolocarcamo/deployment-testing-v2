@@ -1,0 +1,95 @@
+.navbar {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  z-index: 999;
+  transition: top 1s;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: height 500ms ease-in-out, opacity 400ms ease-in-out;
+}
+
+.hide-navbar {
+  height: 0;
+  opacity: 0;
+}
+
+.show-navbar {
+  height: 200px;
+  opacity: 1;
+}
+
+.navbar-logo-container {
+  background-color: transparent;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.navbar-logo {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 55%;
+}
+
+.navbar-container {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.container {
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.navbar-icon {
+  margin-right: 0.5rem;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  height: 80px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #fff;
+  transition: all 1s ease;
+}
+
+@media screen and (max-width: 960px) {
+  .navbar-container {
+    height: 100px;
+  }
+
+  .navbar-logo {
+    margin-top: 20px;
+    width: 400px;
+  }
+}

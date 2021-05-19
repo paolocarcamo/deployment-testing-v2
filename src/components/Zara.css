@@ -1,0 +1,49 @@
+.zara-section {
+  background-color: rgb(166, 198, 125);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zara-section a {
+  background-color: rgb(166, 198, 125);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-logo-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.landing-logo-wrapper img {
+  width: 600px;
+  background-color: transparent;
+}
+
+.landing-logo-wrapper #transition-landing-logo {
+  padding-top: 4px;
+  padding-left: 5.5px;
+  width: 570px;
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+.landing-logo-wrapper:hover #transition-landing-logo {
+  display: inline;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .landing-logo-wrapper img {
+    width: 100%;
+  }
+  .landing-logo-wrapper:hover #transition-landing-logo {
+    width: 570px;
+    display: none;
+    cursor: pointer;
+  }
+}

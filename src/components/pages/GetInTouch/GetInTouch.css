@@ -1,0 +1,154 @@
+.form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-container {
+  position: relative;
+  display: inline-block;
+  width: 800px;
+  margin-top: -20px;
+  padding-bottom: 50px;
+}
+
+.logo-container img {
+  width: 530px;
+  background-color: transparent;
+}
+
+.logo-container #transition-zara-logo {
+  width: 530px;
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+.logo-container:hover #transition-zara-logo {
+  display: inline;
+  position: absolute;
+  left: 135px;
+  cursor: pointer;
+}
+
+.home-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.home-link h1 {
+  font-size: 3rem;
+  padding-bottom: 100px;
+}
+
+.home-link:hover {
+  color: #fff;
+  transition: ease-in 0.5s;
+  cursor: pointer;
+}
+
+.form-label {
+  font-family: 'degular-thin', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-right: 15px;
+}
+
+.form-input {
+  background-color: rgb(237, 165, 72);
+  font-family: 'degular-display';
+  font-size: 1rem;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  height: 30px;
+  width: 450px;
+  border: 1px solid #000;
+}
+
+.textbox-input {
+  background-color: rgb(237, 165, 72);
+  font-family: 'degular-display';
+  font-size: 1rem;
+  padding-left: 5px;
+  width: 450px;
+}
+
+#name-label {
+  margin-left: 28px;
+}
+
+#email-label {
+  margin-left: 28px;
+}
+
+#subject-label {
+  /* margin-left: 5px; */
+}
+
+.inputs-container {
+  padding-right: 90px;
+}
+
+#text-box {
+  margin-left: -5px;
+  font-family: 'degular-display';
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 520px;
+}
+
+.form-input-btn {
+  background-color: rgb(237, 165, 72);
+  border: none;
+  text-transform: uppercase;
+  font-family: 'degular-display';
+  font-size: 3.2rem;
+}
+
+.form-input-btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 768px) {
+  .form-input {
+    margin-bottom: 20px;
+    height: 40px;
+    width: 270px;
+    border: 1px solid #000;
+  }
+
+  .logo-container {
+    width: 400px;
+    padding-bottom: 0;
+  }
+
+  .logo-container img {
+    padding-top: 10px;
+    width: 400px;
+  }
+
+  .button-container {
+    padding-left: 270px;
+  }
+
+  .inputs-container {
+    padding-right: 0;
+  }
+
+  .textbox-input {
+    font-family: 'degular-display';
+    width: 270px;
+  }
+}

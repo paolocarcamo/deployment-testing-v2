@@ -1,0 +1,60 @@
+.advisor-container {
+  background-color: transparent;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+}
+
+.advisor-description {
+  font-family: 'degular', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-right: -5px;
+  line-height: 1.2;
+}
+
+.advisor-desktop-break::after {
+  content: '\a';
+  white-space: pre;
+}
+
+.advisor-image {
+  background-color: transparent;
+  width: 300px;
+  margin-top: -50px;
+  margin-left: 40px;
+}
+
+@media screen and (width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+  .advisor-description {
+    margin-left: -60px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .advisor-image {
+    margin-top: 160px;
+    margin-left: -60px;
+    width: 140px;
+    transform: rotate(15deg);
+  }
+
+  .advisor-description {
+    font-size: 1.2rem;
+    width: 290px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: -10px;
+    padding-left: 0;
+    padding-right: 5px;
+  }
+
+  .advisor-desktop-break::after {
+    content: none;
+    white-space: none;
+  }
+}
