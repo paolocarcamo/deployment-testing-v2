@@ -17,7 +17,7 @@ function GetInTouch() {
       subject: subject.value,
       message: message.value,
     };
-    let response = await fetch('/get-in-touch', {
+    let response = await fetch('http://localhost:5000/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json;charset=utf-8',
