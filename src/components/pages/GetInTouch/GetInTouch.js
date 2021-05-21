@@ -18,7 +18,7 @@ function GetInTouch() {
       message: message.value,
     };
     let response = await fetch(
-      'https://intense-caverns-54330.herokuapp.com/get-in-touch',
+      'https://intense-caverns-54330.herokuapp.com/contact',
       {
         method: 'POST',
         headers: {
